@@ -59,6 +59,7 @@ The course emphasizes the importance of practicing coding in a local environment
 DAY 2
 
 Video 1:
+
 This course content introduces the basics of the Python programming language and how to interact with it.
 
 Getting Started with Python
@@ -79,7 +80,8 @@ Python has reserved words that have specific meanings, which cannot be used as v
 
 Writing a program involves creating lines of code that form sentences, which can be combined into paragraphs, ultimately creating a script or program file.
 
-Video:2
+Video 2:
+
 The course content focuses on the fundamental programming concepts in Python, particularly the patterns used in constructing programs.
 
 Sequential Steps
