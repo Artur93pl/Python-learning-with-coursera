@@ -167,3 +167,45 @@ Assignment Statements
 
 Assignment in programming differs from mathematical equality; it involves storing computed values in variables.
 The process allows for expressions like x = x + 1, which is common in programming but nonsensical in mathematics.
+
+Day 4
+
+Video 1:
+
+The content focuses on the complexity of assignment statements and operators in programming, particularly in Python.
+
+![img_2.png](img_2.png)
+
+Understanding Operators
+
+Programming languages use various operators like addition (+), subtraction (-), multiplication (*), and division (/), which have historical roots in early computer keyboards.
+The modulo operator (%) is highlighted for its importance in computing, providing the remainder of a division operation.
+
+Order of Evaluation
+
+There is a specific order of evaluation for operators: parentheses first, followed by exponentiation, multiplication and division, and finally addition and subtraction.
+Parentheses can be used to clarify the order of operations, making code easier to read and understand.
+
+Practical Applications
+
+The modulo operator is useful for generating random numbers within a specific range, such as simulating dice rolls or card selections.
+Understanding the order of operations is crucial for evaluating expressions correctly, especially in programming assignments.
+
+Video 2:
+
+The content focuses on understanding constants, variables, and their types in Python, emphasizing how Python handles different data types.
+
+Understanding Data Types
+
+Python tracks the type of values in variables and constants, such as integers, floating-point numbers, and strings.
+The plus operator behaves differently based on the data types of its operands, performing addition for integers and concatenation for strings.
+
+Error Handling and Type Management
+
+When incompatible types are combined (e.g., a string and an integer), Python raises a traceback error, indicating where the issue occurred.
+The type function can be used to check the type of a variable or constant, helping to debug type-related issues.
+
+Number Types and Conversions
+
+Integers are whole numbers, while floating-point numbers include decimal points, with floating points having a wider range but less precision.
+Python provides built-in functions like int() and float() to convert between types, allowing for manipulation of data as needed.
