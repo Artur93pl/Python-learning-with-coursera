@@ -203,9 +203,29 @@ The plus operator behaves differently based on the data types of its operands, p
 Error Handling and Type Management
 
 When incompatible types are combined (e.g., a string and an integer), Python raises a traceback error, indicating where the issue occurred.
-The type function can be used to check the type of a variable or constant, helping to debug type-related issues.
+The type function can be used to check the type of variable or constant, helping to debug type-related issues.
 
 Number Types and Conversions
 
 Integers are whole numbers, while floating-point numbers include decimal points, with floating points having a wider range but less precision.
 Python provides built-in functions like int() and float() to convert between types, allowing for manipulation of data as needed.
+
+Day 5 
+
+Video 1:
+
+This course video item focuses on the importance of documentation in programming, particularly through the use of comments and good variable names.
+
+Documentation and Comments
+
+Comments are lines in code ignored by Python, used to explain what the code is doing, making it easier to understand.
+Comments help the programmer (often the future self) remember the purpose and function of code sections, aiding debugging and maintenance.
+
+Video 2:
+
+This course video item introduces the fundamental concept of programming by demonstrating a simple Python program that performs input, processing, and output.
+
+Key Concepts of the Program
+
+The program solves a practical problem: converting European elevator floor numbers (where ground floor is zero) to U.S. floor numbers (where ground floor is one).
+It consists of three main steps: taking input from the user, processing that input by converting and adding one, and outputting the result.
