@@ -229,3 +229,71 @@ Key Concepts of the Program
 
 The program solves a practical problem: converting European elevator floor numbers (where ground floor is zero) to U.S. floor numbers (where ground floor is one).
 It consists of three main steps: taking input from the user, processing that input by converting and adding one, and outputting the result.
+
+Day 6
+
+Video 1:
+
+In this video lecture introduces the concept of conditional execution in Python, which allows programs to make decisions and execute code selectively based on conditions.
+
+Conditional Execution and the if Statement
+
+The if statement enables conditional execution by evaluating a condition that returns True or False.
+If the condition is True, the indented block of code following the if statement runs; otherwise, it is skipped.
+
+Comparison Operators and Conditions
+
+Conditions use comparison operators like <, <=, == (equality test), >=, >, and != (not equal) to form questions about values.
+The double equals (==) is used to test equality, distinct from the single equals (=) which assigns values.
+
+Indentation and Code Blocks
+
+Indentation is crucial in Python to define blocks of code that belong to conditional statements.
+Consistent indentation (usually 4 spaces) is required; mixing tabs and spaces can cause errors.
+Multiple lines can be included in a conditional block by maintaining the same indentation level.
+
+Nested Conditionals and else Clause
+
+Conditionals can be nested inside one another to test multiple conditions sequentially.
+The else clause provides an alternative block of code to execute if the if condition is False, enabling two-way decisions.
+Understanding these concepts is fundamental to writing intelligent programs that can choose different execution paths based on data and conditions.
+
+Video 2:
+
+This course content explains how to use multi-way conditional statements in Python programming to control the flow of execution based on different conditions.
+
+Understanding Conditional Blocks
+
+An if-then-else structure forms a block with one entry and one exit point, where only one path of code runs based on the condition.
+The block starts at the if statement and ends after the last indented line, ensuring clear logical flow.
+
+Using elif for Multi-Way Decisions
+
+The elif keyword allows checking multiple conditions sequentially, running only the first true condition's code block.
+If none of the conditions are true, an optional else block can run as a catch-all.
+
+Examples and Logical Flow
+
+Conditions are checked in order; once a true condition is found, the corresponding block runs and the rest are skipped.
+It is possible to have no else block, meaning no code runs if none of the conditions are met.
+Logical puzzles illustrate how some conditions may never execute depending on the order and coverage of conditions.
+
+Video 3:
+
+The main idea of this course content is to explain the use of the try and except structure in Python for handling errors gracefully.
+
+Understanding try and except
+
+The try block contains code that might fail and cause a traceback error.
+If the code in try works, the except block is skipped; if it fails, the except block runs instead of crashing the program.
+
+How try and except works in practice
+
+When a line of code inside try causes an error, Python jumps to the except block and executes that code.
+This prevents the program from stopping abruptly and avoids showing a traceback error to the user.
+
+Best practices and examples
+
+Only put the risky lines of code inside the try block, not the entire program.
+Example: converting user input to an integer inside try; if it fails, except sets a default value and continues.
+This approach helps handle unexpected user input without crashing the program, making it more robust and user-friendly.
