@@ -297,3 +297,31 @@ Best practices and examples
 Only put the risky lines of code inside the try block, not the entire program.
 Example: converting user input to an integer inside try; if it fails, except sets a default value and continues.
 This approach helps handle unexpected user input without crashing the program, making it more robust and user-friendly.
+
+
+Day 7
+
+Video 1:
+
+This course item introduces the concept of functions in Python programming, focusing on the "store and reuse" pattern to avoid code repetition.
+
+Functions and Their Definition
+
+Functions allow programmers to store a block of code under a name and reuse it multiple times without rewriting it.
+The keyword "def" is used to define a function, followed by the function name and parentheses; the function body is indented.
+Calling and Executing Functions
+
+Defining a function does not execute its code immediately; it only stores the function for later use.
+Functions are called or invoked by using their name followed by parentheses, which executes the stored code and then returns control to the calling location.
+Built-in Functions and Arguments
+
+Python includes built-in functions like print(), input(), type(), int(), float(), max(), and min() that perform common tasks.
+Functions can take arguments (inputs) and return values; for example, max() returns the largest item in a string or list.
+Type Conversion and Function Behavior
+
+Functions like int() and float() convert data types, which is useful when handling user input that is initially a string.
+Function calls temporarily suspend the current operation, execute the function code, and then resume with the returned result.
+Error Handling in Functions
+
+Functions can cause errors if given inappropriate inputs, such as trying to convert a non-numeric string to an integer, which results in a traceback error.
+Understanding function behavior and error handling is important for writing robust code.
