@@ -325,3 +325,42 @@ Error Handling in Functions
 
 Functions can cause errors if given inappropriate inputs, such as trying to convert a non-numeric string to an integer, which results in a traceback error.
 Understanding function behavior and error handling is important for writing robust code.
+
+Video 2:
+
+This course content explains how to define and use functions in Python, focusing on the DEF keyword and function invocation.
+
+Function Definition and Invocation
+
+The DEF statement defines a function but does not execute its code immediately; the function code is stored for later use.
+To run the function code, you must explicitly call or invoke the function by using its name followed by parentheses.
+Function Reuse and Parameters
+
+Defining a function allows code reuse by calling the function multiple times in different parts of the program.
+Functions can accept arguments (parameters) inside the parentheses, which act as aliases for the input values during each function call.
+Example of Function with Parameters
+
+A function can use a parameter as a placeholder to perform different actions based on the input value.
+When the function is called with different arguments, the parameter inside the function refers to the current argument, enabling dynamic behavior.
+
+Video 3:
+
+This course content explains the concept and use of functions in Python, focusing on how return statements work and how functions handle parameters and return values.
+
+Function Return Values and Execution
+
+The return statement in a function stops the function execution and sends back a residual value to the caller.
+This residual value can be used immediately, such as within a print statement, to display or process the returned data.
+Using Arguments and Return Values
+
+Functions can take arguments (parameters) to customize their behavior and return values based on those inputs.
+Examples show how different language codes passed as arguments result in different greeting messages returned and printed.
+Understanding Built-in Functions and Multiple Parameters
+
+The max function example illustrates how a function processes input, finds a result, and returns it to be used elsewhere in the program.
+Functions can have multiple parameters, and the order and number of arguments in the call must match the function definition; the function can then return a computed result.
+Fruitful vs. Non-fruitful Functions
+
+Functions that return values are called fruitful functions.
+Functions that do not return values are called non-fruitful functions.
+Overall, this introduction aims to build a foundational understanding of functions so learners can confidently create and use them when needed.
