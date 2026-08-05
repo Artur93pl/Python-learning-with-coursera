@@ -364,3 +364,23 @@ Fruitful vs. Non-fruitful Functions
 Functions that return values are called fruitful functions.
 Functions that do not return values are called non-fruitful functions.
 Overall, this introduction aims to build a foundational understanding of functions so learners can confidently create and use them when needed.
+
+Day 8
+
+Video 1:
+
+This lecture explains the concept of loops and iteration in Python programming, focusing on how computers perform repetitive tasks efficiently.
+
+While Loops and Iteration Basics
+
+A while loop repeatedly executes a block of code as long as a condition remains true, allowing computers to perform tasks multiple times without manual repetition.
+The loop uses an iteration variable that changes each time through the loop to eventually make the condition false and stop the loop, preventing infinite loops.
+Controlling Loop Execution
+
+Infinite loops occur if the iteration variable does not change, causing the loop to run endlessly and potentially freeze the computer.
+The break statement can be used inside a loop to exit immediately, while the continue statement skips the rest of the current iteration and moves to the next one.
+Practical Examples and Loop Behavior
+
+The lecture demonstrates a countdown example using a while loop that decrements a variable until it reaches zero, then prints "Blastoff!"
+It also shows how to use break and continue in loops that process user input, such as exiting the loop when a specific word is entered or skipping lines starting with a certain character.
+Overall, the lecture introduces indefinite loops with while, emphasizing careful control of the iteration variable and the use of break and continue to manage loop flow. It sets the stage for learning definite loops with for in the next lesson.
