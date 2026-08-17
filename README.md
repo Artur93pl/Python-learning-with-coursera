@@ -309,18 +309,22 @@ Functions and Their Definition
 
 Functions allow programmers to store a block of code under a name and reuse it multiple times without rewriting it.
 The keyword "def" is used to define a function, followed by the function name and parentheses; the function body is indented.
+
 Calling and Executing Functions
 
 Defining a function does not execute its code immediately; it only stores the function for later use.
 Functions are called or invoked by using their name followed by parentheses, which executes the stored code and then returns control to the calling location.
+
 Built-in Functions and Arguments
 
 Python includes built-in functions like print(), input(), type(), int(), float(), max(), and min() that perform common tasks.
 Functions can take arguments (inputs) and return values; for example, max() returns the largest item in a string or list.
+
 Type Conversion and Function Behavior
 
 Functions like int() and float() convert data types, which is useful when handling user input that is initially a string.
 Function calls temporarily suspend the current operation, execute the function code, and then resume with the returned result.
+
 Error Handling in Functions
 
 Functions can cause errors if given inappropriate inputs, such as trying to convert a non-numeric string to an integer, which results in a traceback error.
@@ -334,10 +338,12 @@ Function Definition and Invocation
 
 The DEF statement defines a function but does not execute its code immediately; the function code is stored for later use.
 To run the function code, you must explicitly call or invoke the function by using its name followed by parentheses.
+
 Function Reuse and Parameters
 
 Defining a function allows code reuse by calling the function multiple times in different parts of the program.
 Functions can accept arguments (parameters) inside the parentheses, which act as aliases for the input values during each function call.
+
 Example of Function with Parameters
 
 A function can use a parameter as a placeholder to perform different actions based on the input value.
@@ -351,14 +357,17 @@ Function Return Values and Execution
 
 The return statement in a function stops the function execution and sends back a residual value to the caller.
 This residual value can be used immediately, such as within a print statement, to display or process the returned data.
+
 Using Arguments and Return Values
 
 Functions can take arguments (parameters) to customize their behavior and return values based on those inputs.
 Examples show how different language codes passed as arguments result in different greeting messages returned and printed.
+
 Understanding Built-in Functions and Multiple Parameters
 
 The max function example illustrates how a function processes input, finds a result, and returns it to be used elsewhere in the program.
 Functions can have multiple parameters, and the order and number of arguments in the call must match the function definition; the function can then return a computed result.
+
 Fruitful vs. Non-fruitful Functions
 
 Functions that return values are called fruitful functions.
@@ -375,10 +384,12 @@ While Loops and Iteration Basics
 
 A while loop repeatedly executes a block of code as long as a condition remains true, allowing computers to perform tasks multiple times without manual repetition.
 The loop uses an iteration variable that changes each time through the loop to eventually make the condition false and stop the loop, preventing infinite loops.
+
 Controlling Loop Execution
 
 Infinite loops occur if the iteration variable does not change, causing the loop to run endlessly and potentially freeze the computer.
 The break statement can be used inside a loop to exit immediately, while the continue statement skips the rest of the current iteration and moves to the next one.
+
 Practical Examples and Loop Behavior
 
 The lecture demonstrates a countdown example using a while loop that decrements a variable until it reaches zero, then prints "Blastoff!"
@@ -395,11 +406,13 @@ Definite Loops and the "for" Keyword
 
 Definite loops iterate over a finite set of items, such as elements in a list, lines in a file, or characters in a string.
 The "for" loop in Python uses an iteration variable and the keyword "in" to go through each item in the collection, executing the loop body once per item.
+
 How the "for" Loop Works
 
 The iteration variable takes on each successive value from the collection, and the loop body runs for each value.
 Python manages the loop control, so you don't need to manually handle loop conditions or increments.
 Example: looping through a list of integers or strings, printing each value.
+
 Conceptual Understanding of the "for" Loop
 
 The "for" loop acts as a contract to run the code block a specific number of times, with the iteration variable set to each item in turn.
@@ -414,10 +427,12 @@ Understanding Loop Purpose
 
 Loops are used to process each value in a collection to find results like the largest number, smallest number, total, or count.
 The goal is to set initial variables before the loop, update them during each iteration, and obtain the final answer after the loop finishes.
+
 Human vs Computer Approach
 
 Humans often spot the largest number visually, but computers must check each number sequentially.
 The computer keeps track of the "largest so far" as it iterates through the list, updating this value when a larger number is found.
+
 Implementing the Loop in Python
 
 Initialize a variable (e.g., largest_so_far) before the loop to hold the current largest value.
@@ -425,3 +440,46 @@ For each number in the list, compare it to largest_so_far and update if the curr
 After the loop completes, largest_so_far holds the maximum value in the list.
 This approach demonstrates a common loop pattern: initialize, iterate and update, then finalize the result. The next lessons will cover similar patterns for finding minimums, counting, averaging, and summing values.
 
+Day 10
+
+Video 1:
+
+This course content explains how to use loops in Python to perform common tasks such as counting, totaling, averaging, filtering, and searching.
+
+Counting and Totals
+
+Initialize a counter variable to zero before the loop and increment it by one each iteration to count items.
+Initialize a total variable to zero and add each item’s value to it during the loop to compute a running total.
+
+Averages and Filtering
+
+Use both a counter and a total variable to calculate the average by dividing the total by the count after the loop.
+Use an if statement inside the loop to filter items based on a condition, such as printing only values greater than 20.
+
+Searching with Boolean Variables
+
+Use a Boolean variable initialized to false to track if a specific value is found during the loop.
+Set the Boolean to true when the value is found and optionally break the loop early since the search is complete.
+
+Video 2:
+
+This course content explains how to find the smallest value in a list using Python loops, building on the concept of finding the largest value.
+
+Finding the Smallest Value
+
+Simply changing the comparison from greater than to less than and renaming variables is not enough because starting with an initial value like -1 can cause logic errors.
+Using a large initial value (e.g., 100 or 1000) is unreliable because the list might contain larger numbers, and negative numbers can break the logic.
+
+Using None as a Flag Value
+
+Instead of starting with a numeric value, use None to indicate that no value has been seen yet.
+The first time through the loop, if the smallest value is None, assign the current number to it; afterward, compare normally to find smaller values.
+
+Loop and Logical Operators
+
+The "is" and "is not" operators are used to check if a variable is exactly None, which is stronger than using equality (==).
+This technique of using None as a flag is a common idiom to initialize loop variables when searching for minimum or maximum values.
+
+Summary of Loop Concepts Covered
+
+The course also reviewed definite and indefinite loops, break and continue statements, iteration variables, and common loop idioms like counting, averaging, and finding extremes.
