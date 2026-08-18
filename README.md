@@ -483,3 +483,11 @@ This technique of using None as a flag is a common idiom to initialize loop vari
 Summary of Loop Concepts Covered
 
 The course also reviewed definite and indefinite loops, break and continue statements, iteration variables, and common loop idioms like counting, averaging, and finding extremes.
+
+Day 11
+
+Video 1:
+
+In the video, Dr. Chuck walks through Exercise 5.1 from the Python for Everybody textbook (Chapter 5).
+This example is closely related to your next Assignment: Finding the Largest and Smallest Numbers, which was originally Exercise 5.2 in the textbook.
+We invite you to watch and work along with this demonstration to review key concepts from previous lectures and prepare for your upcoming assignment.
