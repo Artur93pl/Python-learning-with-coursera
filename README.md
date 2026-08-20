@@ -491,3 +491,30 @@ Video 1:
 In the video, Dr. Chuck walks through Exercise 5.1 from the Python for Everybody textbook (Chapter 5).
 This example is closely related to your next Assignment: Finding the Largest and Smallest Numbers, which was originally Exercise 5.2 in the textbook.
 We invite you to watch and work along with this demonstration to review key concepts from previous lectures and prepare for your upcoming assignment.
+
+Day 12
+
+Video 1:
+
+This lecture from the "Python Data Structures" course focuses on understanding and manipulating strings in Python, which is essential for processing text data.
+
+String Basics and Indexing
+
+Strings are sequences of characters that can be indexed starting at 0, meaning the first character is at position 0.
+The index operator uses square brackets to access individual characters, e.g., fruit[1] returns the second character.
+
+Looping Through Strings
+
+You can loop through strings using a while loop with an index variable or more simply with a for loop that iterates directly over each character.
+The for loop is preferred for its simplicity and readability, automatically handling the iteration process.
+
+String Slicing and Length
+
+Slicing allows extracting substrings using the syntax string[start:end], where the end index is up to but not including the specified position.
+The len() function returns the length of a string, which helps control loops and slicing operations.
+
+Additional Notes
+
+Input from users is always treated as strings and may need conversion to integers or floats for arithmetic operations.
+Python handles out-of-range slicing gracefully by returning the substring up to the end without error.
+The "in" keyword is useful for checking membership of characters in strings and is a powerful abstraction for iteration and condition checking.
