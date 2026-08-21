@@ -518,3 +518,27 @@ Additional Notes
 Input from users is always treated as strings and may need conversion to integers or floats for arithmetic operations.
 Python handles out-of-range slicing gracefully by returning the substring up to the end without error.
 The "in" keyword is useful for checking membership of characters in strings and is a powerful abstraction for iteration and condition checking.
+
+Day 13:
+
+Video 1:
+
+This lecture focuses on string manipulation in Python, covering fundamental operations and methods that make working with strings efficient and powerful.
+
+String Operations and Logical Tests
+
+The + operator concatenates strings exactly as given, without adding spaces; spaces must be explicitly included.
+The in operator checks for the presence of a substring within a string, returning True or False, useful in conditional statements.
+
+String Comparison and Object Methods
+
+Strings can be compared using ==, <, and > based on character encoding order, with uppercase letters generally sorting before lowercase.
+Strings are objects in Python with built-in methods like lower(), upper(), replace(), and find() that return modified copies without changing the original string.
+
+Common String Methods and Usage
+
+![img_3.png](img_3.png)
+
+Methods like capitalize(), find(), replace(), strip(), and startswith() help manipulate and query strings effectively.
+Slicing combined with find() allows extracting substrings based on dynamic positions, such as extracting parts of an email address.
+Python 3 uses Unicode strings by default, improving handling of diverse character sets compared to Python 2.
