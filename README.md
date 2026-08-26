@@ -519,7 +519,7 @@ Input from users is always treated as strings and may need conversion to integer
 Python handles out-of-range slicing gracefully by returning the substring up to the end without error.
 The "in" keyword is useful for checking membership of characters in strings and is a powerful abstraction for iteration and condition checking.
 
-Day 13:
+Day 13
 
 Video 1:
 
@@ -542,3 +542,30 @@ Common String Methods and Usage
 Methods like capitalize(), find(), replace(), strip(), and startswith() help manipulate and query strings effectively.
 Slicing combined with find() allows extracting substrings based on dynamic positions, such as extracting parts of an email address.
 Python 3 uses Unicode strings by default, improving handling of diverse character sets compared to Python 2.
+
+Day 14
+
+Video 1:
+
+This lecture focuses on Exercise 6.5 from the "Python for Everybody" textbook, which teaches how to parse text strings in Python.
+
+Parsing Text Strings
+
+The exercise involves extracting a specific part of a string and converting it to a floating point number.
+This skill is foundational for later tasks such as reading files or data from the Internet.
+
+Using a Programming Editor and Directory Navigation
+
+The instructor demonstrates creating and saving a Python file using the Atom editor.
+Basic command line navigation is shown, including moving between directories and listing files.
+
+String Parsing Techniques
+
+The method involves finding the position of a colon in the string using the find() function.
+Extracting the substring after the colon and converting it to a float is demonstrated.
+Adjustments are made to handle spaces and ensure the correct substring is parsed.
+
+Practical Application and Future Use
+
+The exercise prepares learners for handling data from various sources like files, databases, and the Internet.
+Emphasis is placed on the importance of string manipulation before moving on to file handling in the next chapter.
