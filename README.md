@@ -569,3 +569,66 @@ Practical Application and Future Use
 
 The exercise prepares learners for handling data from various sources like files, databases, and the Internet.
 Emphasis is placed on the importance of string manipulation before moving on to file handling in the next chapter.
+
+Day 15
+
+Video 1:
+
+This lecture introduces the concept of working with files in Python, marking a shift from temporary in-memory data to permanent storage.
+
+Understanding File Interaction
+
+Up to this point, programs have manipulated data only in memory, which disappears when the program ends.
+Files provide a way to store data permanently on disk, allowing programs to read from and write to them.
+
+File Types and Formats
+
+The focus is on flat text files, which are simple files consisting of lines of text separated by newline characters.
+An example file format discussed is the mailbox format (mbox.txt), commonly used to export email folders as plain text.
+
+Opening and Handling Files in Python
+
+Files must be opened before reading or writing, using Python's built-in open() function, which returns a file handle.
+The file handle acts as a connection or porthole to the file, not the file's content itself.
+Reading from or writing to the file is done through this handle, and the file should be closed when done.
+
+Newline Characters and File Structure
+
+Newlines (\n) are special characters that mark the end of a line and the start of a new one.
+They are represented as two characters in strings but are actually a single non-printing character.
+Different operating systems may use different newline conventions, but the concept remains the same.
+
+Error Handling and Practical Notes
+
+Attempting to open a non-existent file results in an error (traceback), which can be managed using try-except blocks.
+The print function in Python automatically adds a newline at the end of output unless specified otherwise.
+
+Video 2:
+
+This course item explains how to work with files in Python, focusing on reading files line by line and processing their contents efficiently.
+
+Reading Files Line by Line
+
+A file handle in Python can be treated as a sequence of lines, allowing a for loop to iterate over each line easily.
+This approach eliminates the need for manual end-of-file checks or while loops, making file reading straightforward and readable.
+
+Counting and Searching Lines
+
+You can count lines by initializing a counter and incrementing it inside the loop that reads each line.
+Searching for specific lines is done by checking conditions like whether a line starts with a certain string, and printing or processing only those lines.
+
+Handling Newlines and Whitespace
+
+Lines read from a file include newline characters, which can cause extra blank lines when printed.
+Using the rstrip() function removes trailing whitespace and newlines, preventing unwanted blank lines in output.
+
+User Input and Error Handling
+
+The filename can be read from user input to make the program flexible for different files.
+Using try and except blocks helps handle errors gracefully if the file cannot be opened, avoiding program crashes and providing user-friendly messages.
+
+Filtering Lines with Conditions
+
+You can use if statements with continue to skip lines that do not meet criteria, making the code cleaner and easier to manage.
+Searching for substrings within lines (e.g., "uct") is also possible using the in keyword.
+Overall, this lecture emphasizes Python's elegant and simple approach to file handling, reading, and processing, which is essential for data manipulation tasks.
