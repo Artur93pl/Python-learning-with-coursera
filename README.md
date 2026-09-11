@@ -632,3 +632,28 @@ Filtering Lines with Conditions
 You can use if statements with continue to skip lines that do not meet criteria, making the code cleaner and easier to manage.
 Searching for substrings within lines (e.g., "uct") is also possible using the in keyword.
 Overall, this lecture emphasizes Python's elegant and simple approach to file handling, reading, and processing, which is essential for data manipulation tasks.
+
+Day 16
+
+Video 1:
+
+
+This lecture introduces the concept of data structures in Python, focusing on lists as a fundamental collection type.
+
+Introduction to Data Structures
+
+Algorithms are paths or steps in code, while data structures are ways to organize and store data in variables.
+Unlike simple variables holding single values, data structures like lists can hold multiple values in one variable.
+
+Lists as Collections
+
+Lists are defined using square brackets and can contain multiple items of different types, including strings, integers, floats, and even other lists.
+Lists are mutable, meaning their contents can be changed after creation, unlike strings which are immutable.
+
+Working with Lists
+
+Lists can be iterated over using for loops, where each element is accessed in sequence.
+The index operator (e.g., list[1]) is used to access or modify specific elements in a list.
+The len() function returns the number of elements in a list.
+The range() function generates a sequence of numbers useful for counted loops, often used to iterate over list indices.
+This foundational understanding of lists sets the stage for exploring other data structures like dictionaries and tuples in subsequent lessons.
