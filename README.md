@@ -637,7 +637,6 @@ Day 16
 
 Video 1:
 
-
 This lecture introduces the concept of data structures in Python, focusing on lists as a fundamental collection type.
 
 Introduction to Data Structures
@@ -657,3 +656,25 @@ The index operator (e.g., list[1]) is used to access or modify specific elements
 The len() function returns the number of elements in a list.
 The range() function generates a sequence of numbers useful for counted loops, often used to iterate over list indices.
 This foundational understanding of lists sets the stage for exploring other data structures like dictionaries and tuples in subsequent lessons.
+
+Day 17
+
+Video 1:
+
+This lecture focuses on operations and methods for working with lists in Python, highlighting their mutability and practical usage.
+
+List Operations and Slicing
+
+Lists can be concatenated using the + operator, similar to strings, without altering the original lists.
+Slicing works like string slicing, allowing extraction of sublists by specifying start and end indices.
+
+List Methods and Mutability
+
+Common list methods include append (adds an item), count (counts occurrences), extend, index, insert, pop, and remove.
+Lists are mutable, so methods like append modify the list in place, unlike strings which are immutable.
+
+Using Lists in Loops and Functions
+
+Lists maintain order and can be sorted with the sort() method, which changes the list itself.
+Functions like len(), max(), min(), and sum() help analyze list contents.
+Examples show how to accumulate values in lists and calculate averages, comparing manual loops with built-in functions, noting memory usage differences.
