@@ -701,3 +701,25 @@ Double splitting involves splitting a string into words, then splitting one of t
 This technique simplifies extracting specific parts of complex strings without complicated find and slice operations.
 
 Overall, the lecture introduces lists as a fundamental data structure for organizing multiple items and demonstrates how string splitting combined with lists enables efficient data parsing and manipulation in Python.
+
+Day 19
+
+Video 1:
+
+This lecture introduces Python dictionaries as a powerful data structure for storing collections of key-value pairs, contrasting them with lists.
+
+Collections and Indexing
+
+Collections hold multiple items, requiring an indexing mechanism to access individual elements.
+Lists use integer indices starting at zero to access elements in order, like flipping through a card catalog.
+
+Dictionaries and Key-Value Pairs
+
+Dictionaries store data as key-value pairs, allowing access via unique keys (often strings) rather than numeric positions.
+Keys act like tags or variable names within the dictionary, enabling quick, random access to values.
+
+Evolution and Usage of Dictionaries
+
+Before Python 3.7, dictionaries did not maintain insertion order; from 3.7 onward, they preserve the order items were added.
+Dictionaries are similar to lists but use keys for indexing, making them suitable for representing data like property bags or hash maps.
+Python provides syntax for creating dictionaries with curly braces and key-value pairs, and dictionaries can be modified by assigning new values to existing keys.
